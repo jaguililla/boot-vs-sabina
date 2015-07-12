@@ -1,0 +1,8 @@
+#!/bin/sh
+
+mkdir results 2>/dev/null
+
+lscpu >>results/info
+echo >>results/info
+free -ht >>results/info
+

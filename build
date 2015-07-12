@@ -1,0 +1,42 @@
+#!/bin/sh
+
+mkdir results 2>/dev/null
+
+export fw=sabina
+mpstat >>results/build-$fw
+echo >>results/build-$fw
+free -ht >>results/build-$fw
+echo >>results/build-$fw
+
+sleep 1
+time -p -v -a -o results/build-$fw /opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-$fw clean build >/dev/null 2>&1
+echo >>results/build-$fw
+sleep 1
+time -p -v -a -o results/build-$fw /opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-$fw clean build >/dev/null 2>&1
+echo >>results/build-$fw
+sleep 1
+time -p -v -a -o results/build-$fw /opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-$fw clean build >/dev/null 2>&1
+
+ls -lFh hello-$fw/build/distributions >>results/build-$fw
+unzip hello-$fw/build/distributions/hello-${fw}.zip >/dev/null
+
+sleep 3
+
+export fw=boot
+mpstat >>results/build-$fw
+echo >>results/build-$fw
+free -ht >>results/build-$fw
+echo >>results/build-$fw
+
+sleep 1
+time -p -v -a -o results/build-$fw /opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-$fw clean build >/dev/null 2>&1
+echo >>results/build-$fw
+sleep 1
+time -p -v -a -o results/build-$fw /opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-$fw clean build >/dev/null 2>&1
+echo >>results/build-$fw
+sleep 1
+time -p -v -a -o results/build-$fw /opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-$fw clean build >/dev/null 2>&1
+
+ls -lFh hello-$fw/build/distributions >>results/build-$fw
+unzip hello-$fw/build/distributions/hello-${fw}.zip >/dev/null
+

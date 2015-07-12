@@ -1,0 +1,85 @@
+Linux 3.16.0-4-amd64 (jamhost) 	07/09/2015 	_x86_64_	(8 CPU)
+
+12:52:35 AM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+12:52:35 AM  all    5.31    0.00    0.87    0.08    0.00    0.01    0.00    0.00    0.00   93.73
+
+             total       used       free     shared    buffers     cached
+Mem:          7.7G       3.6G       4.1G       188M        36M       2.1G
+-/+ buffers/cache:       1.5G       6.2G
+Swap:         953M        27M       926M
+Total:        8.7G       3.7G       5.0G
+
+	Command being timed: "/opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-sabina clean build"
+	User time (seconds): 14.06
+	System time (seconds): 0.26
+	Percent of CPU this job got: 315%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 370296
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 144599
+	Voluntary context switches: 8250
+	Involuntary context switches: 222
+	Swaps: 0
+	File system inputs: 528
+	File system outputs: 18384
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+	Command being timed: "/opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-sabina clean build"
+	User time (seconds): 14.77
+	System time (seconds): 0.33
+	Percent of CPU this job got: 334%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 363200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 135829
+	Voluntary context switches: 6076
+	Involuntary context switches: 701
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 18264
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+	Command being timed: "/opt/gradle-2.4/bin/gradle -q --no-daemon -p hello-sabina clean build"
+	User time (seconds): 15.46
+	System time (seconds): 0.30
+	Percent of CPU this job got: 327%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 360276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 138200
+	Voluntary context switches: 10535
+	Involuntary context switches: 3533
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 18272
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+total 8.8M
+-rw-r--r-- 1 jam jam 4.7M Jul  9 00:52 hello-sabina.tar
+-rw-r--r-- 1 jam jam 4.2M Jul  9 00:52 hello-sabina.zip

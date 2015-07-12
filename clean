@@ -1,0 +1,6 @@
+#!/bin/sh
+
+rm -rf results/ *.log
+rm -rf hello-sabina/build/ hello-sabina/.gradle/ hello-sabina/bin/ hello-sabina/lib/
+rm -rf hello-boot/build/ hello-boot/.gradle/ hello-boot/bin/ hello-boot/lib/
+

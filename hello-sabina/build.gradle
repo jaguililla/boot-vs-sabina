@@ -1,0 +1,13 @@
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "hello.Hello"
+
+repositories {
+    jcenter ()
+}
+
+dependencies {
+    compile ('sabina:http:1.3.2')
+}

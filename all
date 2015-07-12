@@ -1,0 +1,7 @@
+#!/bin/sh
+
+./clean
+./info
+./code
+./build
+

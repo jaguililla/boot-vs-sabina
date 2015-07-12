@@ -1,0 +1,30 @@
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                8
+On-line CPU(s) list:   0-7
+Thread(s) per core:    2
+Core(s) per socket:    4
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 60
+Model name:            Intel(R) Core(TM) i7-4712MQ CPU @ 2.30GHz
+Stepping:              3
+CPU MHz:               1434.445
+CPU max MHz:           3300.0000
+CPU min MHz:           800.0000
+BogoMIPS:              4589.46
+Virtualization:        VT-x
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              256K
+L3 cache:              6144K
+NUMA node0 CPU(s):     0-7
+
+             total       used       free     shared    buffers     cached
+Mem:          7.7G       3.6G       4.1G       188M        36M       2.1G
+-/+ buffers/cache:       1.5G       6.2G
+Swap:         953M        27M       926M
+Total:        8.7G       3.7G       5.0G

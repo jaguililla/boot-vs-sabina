@@ -1,0 +1,10 @@
+#!/bin/sh
+
+mkdir results 2>/dev/null
+
+# Time startup
+#(time while ! nc -z localhost 8080; do sleep 0.05; done;) &
+hello-$1/bin/hello-$1 &
+jvisualvm &
+jmeter -t benchmark.jmx &
+jps
